@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Maintenance Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Housing Maintenance</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger"><i class="fas fa-bars"></i></div>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Professional Housing Maintenance Services</h1>
+        <p>Affordable and Reliable – Only R1400 per Service!</p>
+        <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-item">
+                <i class="fas fa-tools"></i>
+                <h3>General Repairs</h3>
+                <p>Fixing leaks, electrical issues, and more for R1400.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-paint-roller"></i>
+                <h3>Painting & Decorating</h3>
+                <p>Refresh your home with professional painting at R1400.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-leaf"></i>
+                <h3>Gardening Maintenance</h3>
+                <p>Keep your garden pristine for just R1400.</p>
+            </div>
+            <div class="service-item">
+                <i class="fas fa-wrench"></i>
+                <h3>Plumbing Services</h3>
+                <p>Expert plumbing solutions at an affordable R1400.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are a team of experienced professionals dedicated to providing top-notch housing maintenance services. With years of expertise, we ensure your home stays in perfect condition at a flat rate of R1400 per service.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" id="contactForm">
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+                <label>Don’t fill this out: <input name="bot-field"></label>
+            </p>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Housing Maintenance Services. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
